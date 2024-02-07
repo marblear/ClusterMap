@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ClusterMap",
     platforms: [
-        .iOS(.v13), .macOS(.v11),
+        .iOS(.v13), .macOS(.v11), .visionOS(.v1)
     ],
     products: [
         .library(name: "ClusterMap", targets: ["ClusterMap"]),
